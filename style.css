@@ -9,6 +9,15 @@ body {
     margin: 0;
 }
 
+#movies-list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+  flex-wrap: wrap;
+}
+
 .movie-card {
     background-color: rgb(181, 113, 221);
     border-radius: 10px;
@@ -19,9 +28,16 @@ body {
     text-align: center;
 }
 
+.title-movie {
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  width: 100%;
+}
+
 .movie-image {
     width: 100%;
-    height: auto;
+    height: 400px;
     margin-top: 10px;
 }
 
